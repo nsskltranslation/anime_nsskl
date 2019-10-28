@@ -1,0 +1,37 @@
+permalink: /:title
+url: #Your url here
+#baseurl: /
+
+# variables
+name: NSSKL
+title:              NSSKL
+subdivisi:          "Anime"
+bio:                'Ngesub Suka-Suka Kami, Lah!'
+description:        "Ngesub Suka-Suka Kami, Lah!"
+locale:             id_ID
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old, _templates]
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    disable : true
+
+plugins:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
