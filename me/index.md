@@ -24,7 +24,7 @@ Saya ajukan pertanyaan ini kepada anggota lain (dibaca: culikan) dan mereka sang
     Motto: <i>Bikin ginian, ketahuan nolep dan kebelet ngememe.</i><br/>
   - <b>Akaise</b>: Guru Bahasa<br/>
     Motto: <i>Saya menyesal telah ngesub.</i><br/>
-  - <b>Jembutlurus</b>: Penjaga Kantin dan Pembersih Kamar Mandi Sekolah
+  - <b>Jembutlurus</b>: Penjaga Kantin dan Pembersih Kamar Mandi Sekolah<br/>
     Motto: <i>Sanggama adalah kebutuhan, bersanggama lah sebelum terlambat.</i><br/>
 
 Jika kalian ada pertanyaan lebih lanjut tentang grup terjemahan kami, silakan masuk saja ke peladen Discord kami dengan mengklik pranala di <a href="https://discord.gg/syJsXbt">sini</a>.
