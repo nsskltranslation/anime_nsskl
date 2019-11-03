@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="/assets/css/atom-one-light.css">
 	{% seo title=false %}
+	{% if page.image %}
+	<meta property="og:image" content="{{ page.image }}">
+	{% endif %}
 	<meta name="theme-color" content="#008082">
     {% if page.title or page.title == 'tentang kami' %}
         <title>{{ site.name }} {{ site.subdivisi }} - {{ page.title }}</title>
@@ -13,7 +16,7 @@
     {% else %}
         <title>{{ site.name }} {{ site.subdivisi }}</title>
 		<link rel="stylesheet" type="text/css" href="/assets/css/001.css">
-    {% endif %}
+		{% endif %}
 	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
